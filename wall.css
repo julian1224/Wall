@@ -1,0 +1,348 @@
+/* minwidth*/
+@media screen and (min-width: 940px) {
+html {
+background: url("ZAGURIDO.png") top;
+  text-align: center;
+  background-position: fixed;
+}
+
+#friedchicken {
+  display: inline-block;
+  text-align: center;
+  border-width: 15px;
+  border-style: ridge;
+  -webkit-animation: animate_bg 5s;
+  animation: animate_bg 5s;
+  -webkit-animation-iteration-count: infinite;
+
+}
+#friedchicken img {
+ padding: 10px;
+
+}
+@keyframes animate_bg {
+    0%   {background:pink;}
+    18%  {background:red;}
+    36% {background:yellow;}
+    54% {background:green;}
+    72% {background:lightblue;}
+    90% {background:blue;}
+    100% {background:purple;}
+}
+
+@-webkit-keyframes animate_bg {
+  0%   {background:pink;}
+  18%  {background:red;}
+  36% {background:yellow;}
+  54% {background:green;}
+  72% {background:lightblue;}
+  90% {background:blue;}
+  100% {background:purple;}
+}
+
+#loginbox {
+  height: 150px;
+  text-align: center;
+  display: inline-block;
+  width: 55%;
+  background-color: #d3d3d3;
+  border-width: 15px;
+  border-style: ridge;
+  padding: 5px;
+
+}
+#fixedpromptupload {
+  position: fixed;
+  height: 150px;
+  display: inline-block;
+  width: 70%;
+background-color: #d3d3d3;
+border-width: 15px;
+border-style: ridge;
+padding: 5px;
+left: 14%;
+bottom: 130px;
+}
+#flex {
+  width: auto;
+  display: inline-flex;
+}
+#sorry {
+  background-color: green;
+  clear: both;
+  display: inline-block;
+}
+
+footer {
+margin: 1%;
+width: 90%;
+display: inline-block;
+border-style: ridge;
+color: green;
+background-color: #d3d3d3;
+border-width: 15px;
+clear: both;
+}
+
+/*general content*/
+.content {
+  min-width: 590px;
+
+  display: inline-block;
+  text-align: center;
+  width: 55%;
+  height: 55%;
+
+border-width: 15px
+border-style: ridge;
+margin: 1px auto;
+padding: 5px;
+clear: both;
+}
+.content img {
+  width: 550px;
+}
+
+/*navigation*/
+.nav {
+width: 120px;
+height: 120px;
+background-color: pink;
+display: inline-block;
+position: fixed;
+border-style: ridge;
+border-width: 15px;
+font-size: 30px;
+
+}
+#rightpage {
+  float: right;
+  bottom: 130px;
+  right: 30px;
+}
+
+#rightpage img {
+  height: 100%;
+  width: 100%;
+}
+
+#leftpage {
+float: left;
+bottom: 130px;
+left: 20px;
+}
+
+#leftpage img {
+  height: 100%;
+  width: 100%;
+}
+div {
+  transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  0-transition: all 3s ease;
+}
+
+/*ads*/
+.advert {
+
+  height: 500px;
+  width: 120px;
+      border-style: ridge;
+      border-width: 15px;
+  color: green;
+  background-color: white;
+      padding: 0px;
+      margin: 3px;
+}
+
+#leftad {
+  float: left;
+  position: fixed;
+  clear: both;
+  left: 1em;
+
+}
+#leftad img {
+  max-width:100%;
+  max-height:100%;
+ margin: 0 auto;
+}
+
+#rightad{
+  float: right;
+  position: fixed;
+  clear: both;
+  right: 1em;
+}
+#rightad img {
+  max-width:100%;
+  max-height:100%;
+ margin: 0 auto;
+}
+
+ /*headers*/
+
+#maintitle {
+font-family: Monospace;
+color: pink;
+font-size: 40px;
+letter-spacing: 20px;
+}
+#secondtitle {
+font-family: Monospace;
+letter-spacing: 10px;
+}
+}
+#post {
+  background-color: #d3d3d3;
+  border-width: 15px;
+  border-style: ridge;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 1%;
+  clear: both
+
+}
+#postnull {
+  background-color: #d3d3d3;
+  border-width: 15px;
+  border-style: ridge;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding: 1%;
+  clear: both;
+}
+/*   maxwidth  */
+@media screen and (max-width: 939px) {
+
+#secondtitle{
+  color: yellow;
+}
+html {
+  background: url("phone.png") center;
+  text-align: center;
+
+}
+#fixedpromptupload{
+  background-color: #d3d3d3;
+  border-width: 15px;
+  border-style: ridge;
+}
+#loginbox {
+  height: 150px;
+  text-align: center;
+  display: inline-block;
+  width: 55%;
+  background-color: #d3d3d3;
+  border-width: 15px;
+  border-style: ridge;
+  padding: 5px;
+
+}
+.content {
+  width: calc(100% - 10px);
+  background-color: pink;
+  margin-top: 150px;
+}
+.advert {
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+img {
+width: 80%;
+}
+p {
+font-size:  2em;
+margin: 2px;
+}
+
+footer {
+  background-color: gray;
+  border-style: ridge;
+  border-width: 15px;
+}
+#verticad {
+  border-style: ridge;
+  border-width: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+height: 100px;
+width: calc(100% - 220px);
+background-color: rgba(150, 150, 150, 0.4);
+font-family: monospace;
+font-size: calc(200% - 10px);
+}
+div :not(.advert){
+  transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  0-transition: all 3s ease;
+}
+
+/* renavigate */
+.nav {
+width: 120px;
+height: 120px;
+display: inline-block;
+position: relative;
+border-style: ridge;
+border-width: 15px;
+}
+.nav img {
+  height: 100%;
+  width: 100%;
+}
+
+#rightpage {
+  float: right;
+
+}
+
+#leftpage {
+float: left;
+
+}
+#friedchicken {
+  display: inline-block;
+  text-align: center;
+  border-width: 15px;
+  border-style: ridge;
+  -webkit-animation: animate_bg 5s;
+  animation: animate_bg 5s;
+  -webkit-animation-iteration-count: infinite;
+
+}
+#friedchicken img {
+ padding: 10px;
+
+}
+
+
+/* Used to display <hr> like it used to */
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+}
+}
+@media screen and (max-width: 540px){
+  #verticad {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+    margin: 0px;
+    border-width: 0px;
+  }
+
+  html {
+    min-width: 420px;
+  }
+  }
